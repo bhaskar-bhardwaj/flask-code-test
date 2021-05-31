@@ -6,4 +6,4 @@ cd /home/ec2-user/app
 
 pip3 intall -r requirements.txt
 
-python app.py > app.out.log 2> app.err.log < /dev/null &
+python3 app.py > app.out.log 2> app.err.log < /dev/null &
